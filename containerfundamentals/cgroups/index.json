@@ -1,6 +1,6 @@
 {
   "title": "cgroups",
-  "description": "Understand working of cgroups through simple linux commands.",
+  "description": "Understand the working of cgroups through simple linux commands.",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
