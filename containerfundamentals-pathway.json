@@ -6,6 +6,11 @@
       "course_id": "cgroups",
       "title": "cgroups",
       "description": "Understand the working of cgroups through simple linux commands."
+    },
+    {
+      "course_id": "namespaces",
+      "title": "namespaces",
+      "description": "Understand the working of namespaces through simple linux commands."
     }
   ]
 }
