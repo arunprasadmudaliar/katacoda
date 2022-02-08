@@ -8,12 +8,12 @@ Let's execute this script in background. It should echo **Testing Cgroups** once
 Next step is to attach this pid to the cgroup that we created earlier. Note the pid from above output and execute the command below command after replacing pid with correct value:
 ```
 echo <pid> > /sys/fs/cgroup/memory/mycgroup/cgroup.procs
-```
+```{{copy}}
 
 Now lets list the process and check if it is using **mycgroup**. Replace **pid** with correct value from above step.
 ```
 ps -o cgroup <pid>
-```
+```{{copy}}
 
 The output should look something like below. Look for **mycgroup** keyword.
 ```
