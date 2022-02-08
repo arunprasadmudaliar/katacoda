@@ -6,4 +6,4 @@
 3. **Accounting** – Resource limits are monitored and reported at the cgroup level.
 4. **Control** – You can change the status (frozen, stopped, or restarted) of all processes in a cgroup with a single command.
 
-Step 1-3 will demostrate how to create a cgroup **mycgroup**, set the memory limit for this cgroup to **10000000 bytes (10MB)** and then assign a process to this cgroup.
+Step 1-3 will demostrate how to create a cgroup **mycgroup**, set the memory limit for this cgroup to **10000000 bytes (10MB)** and then assign a process to this cgroup. This exercise only demonstrates how to control memory limit but the concept is equally applicable to other system resources as well.

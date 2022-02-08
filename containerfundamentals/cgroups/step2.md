@@ -1,7 +1,14 @@
-### Update the required memory limit for **mycgroup**
+### Create a file file test.sh that we can use to mimic a running process. The file will basically print **Testing Cgroups** on the screen and will go to sleep for 5 minutes.
 
-Under the directory created in step 1, we will create a file **memory.limit_in_bytes** and update it with value **10000000**
 
+Below command will create a **test.sh** file that will echo **Testing Cgroups** and then sleep for 5 minutes.
 ```
-echo 10000000 > /sys/fs/cgroup/memory/foo/memory.limit_in_bytes
+touch test.sh
+echo "echo 'Testing Cgroups';sleep 300" > test.sh
+chmod +x test.sh
+```{{execute interrupt}}
+
+You can also check the contents of the file.
 ```
+cat test.sh
+```{{execute}}
