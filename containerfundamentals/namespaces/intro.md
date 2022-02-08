@@ -1,6 +1,6 @@
-## This scenario will help you to understand a Kernel feature called **namespaces**. We will run a process isolated in the namespace that will will create.
+## This scenario will help you to understand a Kernel feature called **namespaces**. We will run a process isolated in the namespace that we will create.
 
-### Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources.
+#### Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources.
 
 The key feature of namespaces is that they isolate processes from each other. On a server where you are running many different services, isolating each service and its associated processes from other services means that there is a smaller blast radius for changes, as well as a smaller footprint for security‑related concerns. 
 
