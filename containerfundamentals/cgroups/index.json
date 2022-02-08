@@ -1,8 +1,8 @@
 {
-  "title": "Container Fundamentals",
-  "description": "Understand important concepts of containers: cgroups, namespaces and union file system.",
-  "difficulty": "Intermediate",
-  "time": "30 minutes",
+  "title": "cgroups",
+  "description": "Understand working of cgroups through simple linux commands.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {

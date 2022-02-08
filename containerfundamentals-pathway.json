@@ -1,0 +1,11 @@
+{
+  "title": "Container Fundamentals",
+  "description": "Explore Namespaces, CGroups and UFS features of a Linux Kernel.",
+  "courses": [
+    {
+      "course_id": "cgroups",
+      "title": "cgroups",
+      "description": "Understand working of cgroups through simple linux commands."
+    }
+  ]
+}
